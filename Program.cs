@@ -128,7 +128,7 @@ class Program
         Console.WriteLine("Работу выполнил Травушкин Степан 23ИС");
     }
 
-    // метод сравнения объектов класса FootballTeam по месту:
+    // мeтод сравнения объектов класса FootballTeam по месту:
     static int ComparePlace(FootballTeam t1, FootballTeam t2)
     {
         if (t1.Place < t2.Place) return -1;
